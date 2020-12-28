@@ -83,7 +83,7 @@
 }
 
 .about {
-    background: grey;
+    background: white;
 }
 
 .about .text {
@@ -123,5 +123,50 @@
 }
 
 .about .text a:hover {
+    background: grey;
+}
+
+
+.discovery {
+    background: white;
+}
+
+.discovery .text {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: auto;
+}
+
+.discovery .text h6 {
+    color: #0E73B9;
+    font-weight: 700;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+.discovery .text h2 {
+    color: black;
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.discovery .text p {
+    color: black;
+    font-weight: 400;
+    font-size: 25px;
+    letter-spacing: 0.5px;
+}
+
+.discovery .text a {
+    background: #0E73B9;
+    font-weight: 550;
+    padding: 20 10px;
+    border-radius: 30px;
+    text-decoration: none;
+}
+
+.discovery .text a:hover {
     background: grey;
 }
