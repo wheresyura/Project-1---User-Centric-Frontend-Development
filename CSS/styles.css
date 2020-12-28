@@ -170,3 +170,19 @@
 .discovery .text a:hover {
     background: grey;
 }
+
+.service {
+  background: #000;
+}
+
+.service .one {
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 30px 20px;
+  border-radius: 7px;
+  height: 60%;
+}
