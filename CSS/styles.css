@@ -186,3 +186,47 @@
   border-radius: 7px;
   height: 60%;
 }
+
+.sign {
+    background: white;
+}
+
+.sign .text {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: auto;
+}
+
+.sign .text h6 {
+    color: #0E73B9;
+    font-weight: 700;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+.sign .text h2 {
+    color: black;
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.sign .text p {
+    color: black;
+    font-weight: 400;
+    font-size: 25px;
+    letter-spacing: 0.5px;
+}
+
+.sign .text a {
+    background: #0E73B9;
+    font-weight: 550;
+    padding: 20 10px;
+    border-radius: 30px;
+    text-decoration: none;
+}
+
+.sign .text a:hover {
+    background: grey;
+}
