@@ -230,3 +230,7 @@
 .sign .text a:hover {
     background: grey;
 }
+
+footer {
+    background: white;
+}
