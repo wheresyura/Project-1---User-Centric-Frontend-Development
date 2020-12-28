@@ -81,3 +81,44 @@
 .mid .hero a:hover {
     background: grey;
 }
+
+.about {
+    background: grey;
+}
+
+.about .text {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: auto;
+}
+
+.about .text h6 {
+    color: #0E73B9;
+    font-weight: 700;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+.about .text h2 {
+    color: black;
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.about .text p {
+    color: black;
+    font-weight: 400;
+    font-size: 25px;
+    letter-spacing: 0.5px;
+}
+
+.about .text a {
+    color:  #0E73B9;
+    font-weight: 500;
+    padding: 10px 20px ;
+    border-radius: 30px;
+    text-decoration: none;
+    color: black;
+}
